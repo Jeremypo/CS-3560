@@ -11,5 +11,4 @@ public class Professor extends Employee{
 	public double calculateSalary() {
 		return super.getHours()*30;
 	}
-
 }
