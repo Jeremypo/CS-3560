@@ -2,7 +2,7 @@ public class Student {
 	//variables
 	private String name;
 	private String major;
-	private Double gpa;
+	private double gpa;
 	
 	//constructors
 	public Student() {};
@@ -10,7 +10,7 @@ public class Student {
 		this.name = name;
 		this.major = major;
 	}
-	public Student(String name, String major, Double gpa) {
+	public Student(String name, String major, double gpa) {
 		this.name = name;
 		this.major = major;
 		this.gpa = gpa;
@@ -29,10 +29,10 @@ public class Student {
 	public void setMajor(String major) {
 		this.major = major;
 	}
-	public Double getGpa() {
+	public double getGpa() {
 		return gpa;
 	}
-	public void setGpa(Double gpa) {
+	public void setGpa(double gpa) {
 		this.gpa = gpa;
 	}
 	
