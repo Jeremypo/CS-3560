@@ -1,3 +1,4 @@
+package HW2_Q1;
 public class Student {
 	//variables
 	private String name;
